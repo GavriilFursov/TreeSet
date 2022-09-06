@@ -2,9 +2,9 @@ import java.util.Comparator;
 
 public class TwoSurname implements Comparator<Person> {
 
-    private final int maxWords;
+    private int maxWords;
 
-    public TwoSurname(int maxWords) {
+    public TwoSurname() {
         this.maxWords = maxWords;
     }
 
